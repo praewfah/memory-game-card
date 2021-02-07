@@ -4,7 +4,7 @@ A Laravel Vue.js project using axios to handle http requests and Vuex to manage 
 
 ![application screenshot](public/images/demo-icon.png "Memory Game Card")
 
-[Live Demo](https://pusher.com/tutorials/laravel-vue-axios)
+[Live Demo](https://memory-game-card.herokuapp.com)
 
 ## Getting Started
 Make sure you have `npm` and `composer` on your local machine
@@ -39,4 +39,5 @@ Make sure you have `npm` and `composer` on your local machine
 
 ## Document
 
-[API Document](https://pusher.com/tutorials/laravel-vue-axios)
+[Install Document](https://memory-game-card.herokuapp.com/install-project.pdf)
+[API Document](https://memory-game-card.herokuapp.com/api.pdf)
