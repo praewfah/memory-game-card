@@ -26,10 +26,13 @@ class Participant extends Model
     public static function getBestTurn($session, $re_current_turn=false)
     {
         $participant = Participant::setParticipant($session, $re_current_turn) ;
+        $my_best_turn = $participant->first()->best_turn;
+        $global_best_turn = Participant::getGlobalBestTurn();
+        
         return [
             'click' => '-', 
-            'my_best_turn' => $participant->first()->best_turn, 
-            'global_best_turn' => Participant::getGlobalBestTurn() ,
+            'my_best_turn' => (isset($my_best_turn) && $my_best_turn > 0) ? $my_best_turn : '-', 
+            'global_best_turn' => (isset($global_best_turn) && $global_best_turn > 0) ? $global_best_turn : '-', 
         ];
     }
 
