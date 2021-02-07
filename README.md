@@ -39,5 +39,5 @@ Make sure you have `npm` and `composer` on your local machine
 
 ## Document
 
-[Install Document](https://memory-game-card.herokuapp.com/install-project.pdf)
-[API Document](https://memory-game-card.herokuapp.com/api.pdf)
+* [Install Document](https://memory-game-card.herokuapp.com/install-project.pdf)
+* [API Document](https://memory-game-card.herokuapp.com/api.pdf)
