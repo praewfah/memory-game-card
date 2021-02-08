@@ -8,7 +8,10 @@ class CookieRepository
 {
     public static function setCookie($field, $value) 
     {
-        return setcookie($field, $value);
+        if (setcookie($field, $value))
+            return $value;
+
+        return (false);
     }
 
     public static function getCookie($field) 
