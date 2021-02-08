@@ -20,6 +20,7 @@ import store from './store/index'
 Vue.component('cards', require('./components/Cards.vue'))
 Vue.component('score', require('./components/Score.vue'))
 Vue.component('splash', require('./components/Splash.vue'))
+Vue.component('footer-div', require('./components/Footer.vue'))
 
 const app = new Vue({
     el: '#app',

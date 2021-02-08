@@ -16,31 +16,26 @@
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
 </head>
 <body>
+<div id="app">
     <header>
         <h1>Memory Game Card</h1>
     </header>
-
-    <div id="app">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <score></score>
-                </div>
-                <div class="col-md-9">
-                    <cards></cards>
-                </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <score></score>
+            </div>
+            <div class="col-md-9">
+                <cards></cards>
             </div>
         </div>
-        <splash></splash>
     </div>
 
-    <footer>
-        Designed and built by 
-        <a href="https://map-search-application.herokuapp.com/aumaporn/cv" target="_blank">Aumaporn Tangmanosodsikul</a> | 
-        GIT URL 
-        <a href="https://github.com/praewfah/memory-game-card.git" target="_blank">https://github.com/praewfah/memory-game-card.git</a> 
-    </footer>
+    <splash></splash>
 
-    <script async src="{{mix('js/app.js')}}"></script>
+    <footer-div></footer-div>
+</div>
+<script async src="{{mix('js/app.js')}}"></script>
 </body>
 </html>
